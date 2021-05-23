@@ -22,7 +22,7 @@ def hello():
         print(response)
         print(response.stdout)
         return response.stdout
-@app.route('/')
+@app.route('/hello')
 def test():
     return {"message":"hello"}
 app.run(host='0.0.0.0', port=5000)
