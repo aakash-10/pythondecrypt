@@ -25,4 +25,4 @@ def hello():
 @app.route('/hello')
 def test():
     return {"message":"hello"}
-app.run(host='0.0.0.0', port=5000)
+app.run(host='0.0.0.0', port=5000,debug=True)
