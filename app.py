@@ -2,7 +2,7 @@
 from Naked.toolshed.shell import muterun_js
 from flask import Flask
 app = Flask(__name__)
-
+# web: gunicorn wsgi:app
 @app.route('/')
 def hello():
     secret="Files will never end"
