@@ -2,9 +2,9 @@
   "name": "decryption",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "decrypt.js",
   "scripts": {
-    "postinstall": "cd static && npm install"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
